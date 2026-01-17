@@ -1,43 +1,250 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<style>
-body {
-    background-image: url("drmdshahid.github.io/assets/IMG-20160425-WA0000.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: left top;
-    background-size: cover;
+  <title>Dr Mohammed Shahid | Neurosurgeon</title>
+
+  <meta name="description" content="Dr Mohammed Shahid is a neurosurgeon specializing in brain and spine surgery, minimally invasive and endoscopic procedures. Consultations via WhatsApp or online appointment booking." />
+
+  <!-- Medical SEO Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr Mohammed Shahid",
+    "medicalSpecialty": [
+      "Neurosurgery",
+      "Spine Surgery"
+    ],
+    "description": "Neurosurgeon specializing in brain and spine disorders, minimally invasive and endoscopic neurosurgery.",
+    "availableService": [
+      "Brain Surgery",
+      "Spine Surgery",
+      "Back Pain Management",
+      "Minimally Invasive Spine Surgery",
+      "Neuro-Endoscopy"
+    ],
+    "areaServed": {
+      "@type": "City",
+      "name": "Hyderabad"
+    },
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Appointments",
+      "url": "https://wa.me/WHATSAPP_NUMBER"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #0f2a44;
+      --accent: #1e88e5;
+      --light: #f7f9fb;
+      --text: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0.75rem;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section:nth-child(even) {
+      background: var(--light);
+    }
+
+    h2 {
+      color: var(--primary);
+    }
+
+    .or-image {
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+
+    .or-image img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+    .or-image p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+
+.wa-button{
+    position: fixed;
+    bottom: 6em;
+    right: 3em;
 }
 
-h1 {
-    color: yellow;
-    margin-left: 5%;
-}
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      margin-top: 1rem;
+    }
 
-p {
-    color: white;
-    margin-left: 10%;
-}
-
-#projects{
-    display: none;
-}
-</style>
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
 </head>
+
 <body>
-<h1>welcome 2 d frns of Awesome dumbu</h1>
 
-<p>Im Awesome becoz ur Awesome</p>
-<p>hope we will stay Awesome frns forever</p>
+<header>
+  <h1>Dr Mohammed Shahid</h1>
+  <p>M.Ch Neurosurgery | Brain & Spine Specialist</p>
+</header>
 
-<div id="projects">
-<h2>visit projects pages:</h2>
-<h3 class="view">
-    <a href="https://drmdshahid.github.io/IAMSqa/">IAMSqa</a>
-</h3>
-</div>
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#practice">Practice</a></li>
+    <li><a href="#vision">Vision</a></li>
+    <li><a href="#meet">Appointments</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    I am a neurosurgeon with advanced training in the diagnosis and surgical
+    management of brain and spine disorders. My practice emphasizes precision,
+    safety, ethical decision-making, and clear communication with patients and
+    families.
+  </p>
+</section>
+
+<section id="practice">
+  <h2>Expertise & Surgical Practice</h2>
+
+  <ul>
+    <li>Brain and skull base surgeries</li>
+    <li>Spine surgery for back pain, disc disease, and instability</li>
+    <li>Minimally invasive and endoscopic spine procedures</li>
+    <li>Neuro-trauma and emergency neurosurgery</li>
+	<li>Congenital and pediatric neurosurgical conditions</li>
+  </ul>
+
+  <div class="or-image">
+    <img src="or-neurosurgery.jpg" alt="Neurosurgery being performed in a modern operating room">
+
+  </div>
+</section>
+
+<section id="vision">
+  <h2>Vision & Patient Care Philosophy</h2>
+  <p>
+    I believe informed patients make better decisions. My approach combines
+    evidence-based neurosurgery with patient education, realistic counseling,
+    and compassionate care. 
+	My goal is to deliver neurosurgical care that is transparent, ethical, and tailored to each patient’s condition and expectations.
+  </p>
+  <p>
+    Hopefully, this website will gradually expand into a knowledge platform addressing common brain and spine conditions, treatment options, and recovery guidance.
+  </p>
+</section>
+
+<section id="meet">
+  <h2>How to Meet...</h2>
+
+  <div class="cta-buttons">
+  <a aria-label="Chat on WhatsApp" href="https://wa.me/8333077773?text=I%20want%20to%20book%20an%20appointment." class="wa-button"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" />
+</a>
+
+<!-- Cal floating-popup embed code begins -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "visit", {origin:"https://app.cal.com"});
+
+  Cal.ns.visit("floatingButton", {"calLink":"neuroshahid/visit","config":{"layout":"month_view"},"buttonText":"Book Appointment"}); 
+  Cal.ns.visit("ui", {"hideEventTypeDetails":true,"layout":"month_view"});
+  </script>
+  <!-- Cal floating-popup embed code ends -->  
+  
+  </div>
+  
+
+  <h3 style="margin-top:2rem;">Location</h3>
+
+  <!-- Google Maps Embed -->
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.7369553840705!2d78.03835906956995!3d15.806705089444915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5ddbf28b53475%3A0x7480c6d05490891d!2sDr.Saleem%20-%20Ophthalmologist%2C%20Eye%20specialist%2C%20Asst.professor%20in%20REH%2CKurnool!5e0!3m2!1sen!2sin!4v1768687361158!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  <p style="font-size:0.9rem;">
+    For emergencies, please visit the nearest emergency department immediately.
+  </p>
+</section>
+
+<footer>
+  © 2026 Dr Mohammed Shahid | Neurosurgery<br>
+  This website provides general medical information and does not replace a
+  professional consultation.
+</footer>
+
 </body>
 </html>
